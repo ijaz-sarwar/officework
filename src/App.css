@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -12,7 +16,43 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.pets{
+display: flex;
+    justify-content: center;
+}
+.pet-card{
+  padding: 10px;
+  border: 1px solid;
+  margin: 10px;
+}
+.pet-card-detail{
+  padding: 10px;
+  border: 1px solid;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  height: 470px;
+  width: 470px;
+}
+.pet-card-details{
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  height: 470px;
+  width: 470px;
+}
+.basket{
+  width: 95%;
+  border: 1px solid rgb(239, 40, 22);
+  min-height: 50vh;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
